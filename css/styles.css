@@ -180,6 +180,9 @@
     color: #757575;
 }
 
+.logo.current {
+    color: #FFFFFF;
+}
 
 /* ============= END FOOTER ============= */
 
