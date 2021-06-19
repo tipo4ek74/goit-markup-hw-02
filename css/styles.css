@@ -1,0 +1,200 @@
+:root {
+    --main-font: "Roboto", sans-serif;;
+    --secondary-font: "Raleway", sans-serif;
+    --accent-color: #2196F3;
+    --main-color: #212121;
+    --description-color: #757575;
+    
+  }
+
+  .list {
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: var(--main-color);
+  }
+  
+  body {
+    font-family: var(--main-font);
+    font-weight: 400;
+    color: var(--main-color);
+  }
+
+/* ============= HEADER ============= */
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.tel-link,
+.mail-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.mail-link:hover,
+.mail-link:focus {
+    color: var(--accent-color);
+}
+
+.tel-link:hover,
+.tel-link:focus {
+    color: var(--accent-color);
+}
+
+.menu-link.current {
+    color: var(--accent-color);
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo-span {
+    color: var(--accent-color);
+}
+
+.menu.list {
+    cursor: pointer;
+}
+
+/* ============= END HEADER ============= */
+
+/* ============= HERO ============= */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+}
+
+.modal-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #188CE8;
+    color: #FFFFFF;
+}
+
+/* ============= END HERO ============= */
+
+/* ============= SERVICES ============= */
+
+.services-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+
+.services-description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+/* ============= END SERVICES ============= */
+
+/* ============= ABOUT ============= */
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* ============= END ABOUT ============= */
+
+/* ============= TEAM ============= */
+
+.team-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-name-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-description {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+/* ============= END TEAM ============= */
+
+/* ============= FOOTER ============= */
+
+.mail-link.footer,
+.tel-link.footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.footer {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background-color: ;
+
+    /*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* ============= END FOOTER ============= */
+
+/* ============= CONTACT INFORMATION ============= */
+
+/* =============  CONTACT INFORMATION ============= */
+
+
