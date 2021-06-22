@@ -4,6 +4,10 @@
     --accent-color: #2196F3;
     --main-color: #212121;
     --description-color: #757575;
+    --logo-color: #FFFFFF;
+    --batton-color: #2196F3;
+    --batton-text-hover-color: #FFFFFF;
+    --batton-hover-color: #188CE8;
     
   }
 
@@ -65,6 +69,8 @@
     letter-spacing: 0.03em;
 }
 
+
+
 .logo-span {
     color: var(--accent-color);
 }
@@ -94,14 +100,14 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    background-color: var(--accent-color);
+    background-color: var(--batton-color);
     cursor: pointer;
 }
 
 .btn:hover,
 .btn:focus {
-    background-color: #188CE8;
-    color: #FFFFFF;
+    background-color: var(--batton-hover-color);
+    color: var(--batton-text-hover-color);
 }
 
 /* ============= END HERO ============= */
@@ -181,7 +187,7 @@
 }
 
 .logo.current {
-    color: #FFFFFF;
+    color: var(--logo-color);
 }
 
 /* ============= END FOOTER ============= */
