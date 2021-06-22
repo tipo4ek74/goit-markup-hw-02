@@ -177,7 +177,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--description-color);
 }
 
 .logo.current {
@@ -191,3 +191,30 @@
 /* =============  CONTACT INFORMATION ============= */
 
 
+/* ============= PORTFOLIO PAGE ============= */
+
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.portfolio-imeg-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-image-decription {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+
+    color: var(--description-color);
+}
+
+/* ============= END PORTFOLIO PAGE ============= */
